@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Práctica Css</title>
+    <style>
+        p.normal{
+            font-style:normal;
+        }
+        p.italic{
+            font-style:italic;
+        }
+        p.oblique{
+            font-style:oblique;
+        }
+        #para1{
+            text-align:center;
+            color: red;
+        }
+        h1{
+font: size 40px;
+color: coral;
+        }
+        h2{
+            font-size: 30px;
+            color: greenyellow;
+        }
+        p{
+            text-align: center;
+            color: black;
+        }
+        ul.a {
+            list-style-type: circle;
+        }
+        ul.b {
+            list-style-type: square;
+        }
+        ol.c {
+            list-style-type: upper-roman;
+        }
+        ol.d{
+            list-style-type:lower-alpha;
+        }
+        table.sinespacio {
+  border-collapse: separate;
+}
+table.conespacio {
+border-collapse: separate;
+border-spacing: 30px;
+}
+table.diferent {
+border-collapse: separate;
+border-spacing: 70px 15px;
+}
+    </style>
+</head>
+<body>
+
+    <p class="normal">Este es un parrafo estilo normal.</p>
+    <p class="italic">Este es un parrafo estilo cursiva.</p>
+    <p class="oblique">Este es un parrafo estilo oblicuo.</p>
+<p>Ejemplo de listas desordenadas:</p>
+<ul class="a">
+    <li>Café</li>
+    <li>Té</li>
+    <li>Coca Cola</li>
+</ul>
+<ul class="b">
+    <li>Café</li>
+    <li>Té</li>
+    <li>Coca Cola</li>
+</ul>
+    <p>Ejemplo de listas ordenadas:</p>
+    <ol class="c">
+        <li>Café</li>
+        <li>Té</li>
+    <li>Coca Cola</li>
+    </ol>
+    <ol class="d">
+        <li>Café</li>
+        <li>Té</li>
+    <li>Coca Cola</li>
+    </ol>
+    <p>Tabla con celdas sin espacio.</p>
+<table class="sinespacio" border="1">
+<tr>
+<td>Marca</td>
+<td>Color</td>
+<td>Precio</td>
+</tr>
+<tr>
+<td>Agua</td>
+<td>Verde</td>
+<td>140.00</td>
+</tr>
+</table>
+
+<p>Tabla con celdas de espacio uniforme.</p>
+<table class="conespacio" border="1">
+<tr>
+<td>Marca</td>
+<td>Color</td>
+<td>Precio</td>
+</tr>
+<tr>
+<td>Agua</td>
+<td>Verde</td>
+<td>140.00</td>
+</tr>
+</table>
+
+<p>Tablas con espacio horizontal y vertical diferente.</p>
+<table class="diferent" border="1">
+<tr>
+<td>Marca</td>
+<td>Color</td>
+<td>Precio</td>
+</tr>
+<tr>
+<td>Agua</td>
+<td>Verde</td>
+<td>140.00</td>
+</tr>
+</table>
+</body>
+</html>
